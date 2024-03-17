@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
 import Main from "./Main";
 import "./App.css";
+import MLLogo from "./images/ML-logo.png";
 
 export default function App() {
   return (
@@ -12,10 +13,10 @@ export default function App() {
           <p>
             Hello, my name is Matilda, an aspiring Front-end developer based in
             Stockholm, Sweden. I'm just finishing up the last part of my studies
-            with
+            with{" "}
             <a href="https://www.shecodes.io/" target="_blank" rel="noreferrer">
               SheCodes Max
-            </a>
+            </a>{" "}
             and actively seeking and Internship where i can take my coding to
             the next level and contribute with a lot of creativity, drive and
             determination to find solutions for all problems that may arise.
@@ -26,7 +27,7 @@ export default function App() {
         <Main />
         <footer>
           <div class="container">
-            <img src="src/images/ML-logo.png" alt="logo" class="mlLogoSmall" />
+            <img src={MLLogo} alt="logo" class="mlLogoSmall" />
             <p class="footer-text">
               16751 Bromma
               <br />

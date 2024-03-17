@@ -18,13 +18,13 @@ export default function Main() {
             currently getting familiar with Next.js.
           </p>
           <div className="icons">
-            <i className="fa-brands fa-html5"></i>
-            <i className="fa-brands fa-css3-alt"></i>
-            <i className="fa-brands fa-js"></i>
-            <i className="fa-brands fa-react"></i>
-            <i className="fa-brands fa-bootstrap"></i>
-            <i className="fa-brands fa-figma"></i>
-            <i className="fa-brands fa-wordpress-simple"></i>
+            <i className="fab fa-html5"></i>
+            <i className="fab fa-css3-alt"></i>
+            <i className="fab fa-js"></i>
+            <i className="fab fa-react"></i>
+            <i className="fab fa-bootstrap"></i>
+            <i className="fab fa-figma"></i>
+            <i className="fab fa-wordpress-simple"></i>
           </div>
         </div>
       </section>

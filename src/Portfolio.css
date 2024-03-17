@@ -1,0 +1,22 @@
+.project-links {
+  text-align: center;
+  margin-top: 20px;
+}
+.project-link {
+  color: white;
+  text-decoration: none;
+}
+.project-link:hover {
+  text-decoration: underline;
+}
+.project-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+}
+.Portfolio i {
+  display: block;
+  text-align: center;
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}

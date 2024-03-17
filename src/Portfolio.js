@@ -1,4 +1,9 @@
 import React from "react";
+import reactWeather from "./images/react-weather.png";
+import shpImage from "./images/shp-projects.png";
+import aiImage from "./images/AI-project.png";
+
+import "./Portfolio.css";
 
 export default function Portfolio() {
   return (
@@ -20,7 +25,7 @@ export default function Portfolio() {
           <h2>React Weather app</h2>
           <p>This project was done as a part of SheCodes React workshop</p>
           <img
-            src="./images/react-weather.png"
+            src={reactWeather}
             alt="React weather app"
             className="project-img"
           />
@@ -47,11 +52,7 @@ export default function Portfolio() {
         <div className="border-section">
           <h2>AI movie quote generator</h2>
           <p>This project was done as a part of SheCodes AI workshop</p>
-          <img
-            src="src/images/AI-project.png"
-            alt="AI project"
-            className="project-img"
-          />
+          <img src={aiImage} alt="AI project" className="project-img" />
           <div className="project-links">
             <a
               href="https://movie-quote-generator.netlify.app/"
@@ -84,7 +85,7 @@ export default function Portfolio() {
             esse cillum Consectetur adipiscing elit, sed do eiusmod tempor
           </p>
           <img
-            src="src/images/shp-projects.png"
+            src={shpImage}
             alt="Shiny Happy People"
             width="400px"
             className="project-img"
@@ -112,8 +113,10 @@ export default function Portfolio() {
       </section>
       <section className="grid grid-4-columns">
         <div className="border-section-4">
+          <i class="fa-solid fa-book"></i>
           <h2>React Dictionary</h2>
           <p>Under construction...</p>
+
           <div className="project-links">
             <a
               href="https://reliable-dictionary.netlify.app/"
