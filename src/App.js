@@ -24,6 +24,28 @@ export default function App() {
         </header>
 
         <Main />
+        <footer>
+          <div class="container">
+            <img src="src/images/ML-logo.png" alt="logo" class="mlLogoSmall" />
+            <p class="footer-text">
+              16751 Bromma
+              <br />
+              matilda.hj.larsson@gmail.com
+            </p>
+
+            <small>
+              This is an
+              <a
+                href="https://github.com/MatildaHJ/react-portfolio"
+                class="gitLink"
+                target="_blank"
+                rel="noreferrer"
+              >
+                open source code
+              </a>
+            </small>
+          </div>
+        </footer>
       </div>
     </div>
   );
