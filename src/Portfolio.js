@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "./Contact";
 import reactWeather from "./images/react-weather.png";
 import shpImage from "./images/shp-projects.png";
 import aiImage from "./images/AI-project.png";
@@ -38,7 +39,7 @@ export default function Portfolio() {
             >
               Launch website
             </a>{" "}
-            •
+            •{" "}
             <a
               href="https://github.com/MatildaHJ/weather-react"
               className="project-link"
@@ -62,7 +63,7 @@ export default function Portfolio() {
             >
               Launch website
             </a>{" "}
-            •
+            •{" "}
             <a
               href="https://github.com/MatildaHJ/movie-quote-generator"
               className="project-link"
@@ -84,12 +85,18 @@ export default function Portfolio() {
             consequat. Duis aute irure dolor in reprehenderit in voluptate velit
             esse cillum Consectetur adipiscing elit, sed do eiusmod tempor
           </p>
-          <img
-            src={shpImage}
-            alt="Shiny Happy People"
-            width="400px"
-            className="project-img"
-          />
+          <a
+            href="https://shinyhappypeople.se/"
+            className="project-link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={shpImage}
+              alt="Shiny Happy People"
+              className="project-img"
+            />
+          </a>
           <div className="project-links">
             <a
               href="https://shinyhappypeople.se/"
@@ -99,7 +106,7 @@ export default function Portfolio() {
             >
               Launch website
             </a>{" "}
-            •
+            •{" "}
             <a
               href="https://github.com/MatildaHJ/shiny-happy-people"
               className="project-link"
@@ -113,7 +120,7 @@ export default function Portfolio() {
       </section>
       <section className="grid grid-4-columns">
         <div className="border-section-4">
-          <i class="fa-solid fa-book"></i>
+          <i className="fa-solid fa-book"></i>
           <h2>React Dictionary</h2>
           <p>Under construction...</p>
 
@@ -126,7 +133,7 @@ export default function Portfolio() {
             >
               Launch website
             </a>{" "}
-            •
+            <br />
             <a
               href="https://github.com/MatildaHJ/dictionary-react"
               className="project-link"
@@ -138,8 +145,9 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="border-section-4">
+          <i className="fa-solid fa-cloud-sun"></i>
           <h2>Vanilla JS weather app</h2>
-          <p>This project was done as a part of SheCodes React workshop</p>
+          <p>This project was done as a part of SheCodes Plus workshop</p>
 
           <div className="project-links">
             <a
@@ -149,8 +157,8 @@ export default function Portfolio() {
               rel="noreferrer"
             >
               Launch website
-            </a>{" "}
-            •
+            </a>
+            <br />
             <a
               href="https://github.com/MatildaHJ/vanilla-weather-app"
               className="project-link"
@@ -162,8 +170,11 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="border-section-4">
+          <i className="fa-solid fa-clock"></i>
           <h2>World Clock</h2>
-          <p>This project was done as a part of SheCodes React workshop</p>
+          <p>
+            This project was done as a part of SheCodes Plus add-on workshop
+          </p>
           <div className="project-links">
             <a
               href="https://reliable-world-clock.netlify.app/"
@@ -172,8 +183,8 @@ export default function Portfolio() {
               rel="noreferrer"
             >
               Launch website
-            </a>{" "}
-            •
+            </a>
+            <br />
             <a
               href="https://github.com/MatildaHJ/world-clock"
               className="project-link"
@@ -185,8 +196,12 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="border-section-4">
+          <i className="fa-solid fa-plane-departure"></i>
           <h2>Responsive travel website</h2>
-          <p>This project was done as a part of SheCodes React workshop</p>
+          <p>
+            This project was done as a part of SheCodes Responsive add-on
+            workshop
+          </p>
           <div className="project-links">
             <a
               href="https://galapagosislands.netlify.app/"
@@ -195,8 +210,8 @@ export default function Portfolio() {
               rel="noreferrer"
             >
               Launch website
-            </a>{" "}
-            •
+            </a>
+            <br />
             <a
               href="https://github.com/MatildaHJ/responsive-travel-project"
               className="project-link"
@@ -209,66 +224,7 @@ export default function Portfolio() {
         </div>
       </section>
 
-      <section id="contact">
-        <div className="border-section">
-          <h3>Let's work together!</h3>
-          <p>Send me a message and I'll get back to you asap</p>
-          <form>
-            <div className="form-group">
-              <input
-                type="email"
-                className="form-control no-background"
-                id="emailInput"
-                placeholder="Enter your email here"
-                fdprocessedid="5rahu7"
-              />
-              <label htmlFor="emailInput">Email</label>
-            </div>
-            <div className="form-group">
-              <input
-                type="name"
-                className="form-control no-background"
-                id="nameInput"
-                placeholder="Enter your name here"
-                fdprocessedid="vn5tda"
-              />
-              <label htmlFor="nameInput">Name</label>
-            </div>
-            <div className="form-group">
-              <textarea
-                className="form-control no-background"
-                id="messageInput"
-                rows="8"
-                placeholder="Write your message here"
-              ></textarea>
-              <label htmlFor="messageInput">Message</label>
-            </div>
-            <div>
-              <button type="submit" className="btn" fdprocessedid="svevfm">
-                Send
-              </button>
-            </div>
-          </form>
-          <br />
-          <h3>Find me on my socials</h3>
-          <div className="icons">
-            <a
-              href="https://www.linkedin.com/in/matilda-larsson-0176a3289/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa-brands fa-linkedin fa-2xl"></i>
-            </a>
-            <a
-              href="https://github.com/MatildaHJ"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa-brands fa-square-github fa-2xl"></i>
-            </a>
-          </div>
-        </div>
-      </section>
+      <Contact />
     </div>
   );
 }

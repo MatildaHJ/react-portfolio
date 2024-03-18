@@ -28,7 +28,7 @@ export default function Main() {
           </div>
         </div>
       </section>
-      <Portfolio />
+      <Portfolio id="portfolio" />
     </div>
   );
 }
