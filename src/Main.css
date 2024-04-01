@@ -53,7 +53,7 @@ section {
   letter-spacing: 0em;
   text-align: center;
 }
-.icons {
+.Main .icons {
   text-align: center;
   opacity: 0.5;
   margin-top: 18px;
@@ -64,5 +64,3 @@ i {
   font-size: 24px;
   padding: 6px;
 }
-
-

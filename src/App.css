@@ -34,6 +34,10 @@
   background-color: #211b23;
   padding: 0 35px 35px 35px;
 }
+.App .footer-content {
+  max-width: 70%;
+  margin: 0 auto;
+}
 .App .footer-text,
 .App small {
   line-height: 15px;
@@ -41,7 +45,7 @@
   text-transform: uppercase;
 }
 .App small {
-  font-size: 7px;
+  font-size: 8px;
 }
 .App .footer-text {
   text-align: left;

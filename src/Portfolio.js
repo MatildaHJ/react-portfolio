@@ -118,9 +118,8 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
-      <section className="grid grid-4-columns">
-        <div className="border-section-4">
-          <i className="fa-solid fa-book"></i>
+      <section className="grid grid-2-columns">
+        <div className="border-section">
           <h2>React Dictionary</h2>
           <p>Under construction...</p>
 
@@ -133,7 +132,7 @@ export default function Portfolio() {
             >
               Launch website
             </a>{" "}
-            <br />
+            •{" "}
             <a
               href="https://github.com/MatildaHJ/dictionary-react"
               className="project-link"
@@ -144,33 +143,8 @@ export default function Portfolio() {
             </a>
           </div>
         </div>
-        <div className="border-section-4">
-          <i className="fa-solid fa-cloud-sun"></i>
-          <h2>Vanilla JS weather app</h2>
-          <p>This project was done as a part of SheCodes Plus workshop</p>
 
-          <div className="project-links">
-            <a
-              href="https://reliable-weather.netlify.app/"
-              className="project-link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Launch website
-            </a>
-            <br />
-            <a
-              href="https://github.com/MatildaHJ/vanilla-weather-app"
-              className="project-link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Open on github
-            </a>
-          </div>
-        </div>
-        <div className="border-section-4">
-          <i className="fa-solid fa-clock"></i>
+        <div className="border-section">
           <h2>World Clock</h2>
           <p>
             This project was done as a part of SheCodes Plus add-on workshop
@@ -183,37 +157,10 @@ export default function Portfolio() {
               rel="noreferrer"
             >
               Launch website
-            </a>
-            <br />
+            </a>{" "}
+            •{" "}
             <a
               href="https://github.com/MatildaHJ/world-clock"
-              className="project-link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Open on github
-            </a>
-          </div>
-        </div>
-        <div className="border-section-4">
-          <i className="fa-solid fa-plane-departure"></i>
-          <h2>Responsive travel website</h2>
-          <p>
-            This project was done as a part of SheCodes Responsive add-on
-            workshop
-          </p>
-          <div className="project-links">
-            <a
-              href="https://galapagosislands.netlify.app/"
-              className="project-link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Launch website
-            </a>
-            <br />
-            <a
-              href="https://github.com/MatildaHJ/responsive-travel-project"
               className="project-link"
               target="_blank"
               rel="noreferrer"

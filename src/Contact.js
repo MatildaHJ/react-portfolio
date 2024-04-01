@@ -44,6 +44,22 @@ export default function Contact() {
               </button>
             </div>
           </form>
+          <div className="contact-icons">
+            <a
+              href="https://www.linkedin.com/in/matilda-larsson-0176a3289/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-brands fa-linkedin fa-2xl"></i>
+            </a>
+            <a
+              href="https://github.com/MatildaHJ"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-brands fa-square-github fa-2xl"></i>
+            </a>
+          </div>
         </div>
       </section>
     </div>
