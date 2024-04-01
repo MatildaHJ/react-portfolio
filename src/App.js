@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import Main from "./Main";
+import Language from "./Language";
 import "./App.css";
 import MLLogo from "./images/ML-logo.png";
 
@@ -7,6 +8,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
+        <Language />
         <Navbar />
         <div className="main-container">
           <header id="about">
