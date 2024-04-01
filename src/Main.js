@@ -10,7 +10,7 @@ export default function Main() {
         <div className="border-section">
           <h2>SKILLS</h2>
           <p>
-            In my studies I've learnt (apart from all the basics): responsive
+            In my studies I've learned HTML5, CSS, JS & React.js, responsive
             development, how to use Bootstrap, make API-calls, Git, hosting and
             incorporate plug-ins. We also hade a mini course in AI and on the
             side I've developed some skills in Figma. I'm cool with Wordpress

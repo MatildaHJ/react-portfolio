@@ -24,10 +24,9 @@ export default function Portfolio() {
         <div className="border-section">
           <h2>React Weather app</h2>
           <p>
-            This is a weather app with daily weather data, time and forecast
+            A weather app with real-time weather data, time, icons and forecast
             data from any city around the world. It was done as a part of
-            SheCodes React workshop and probably the part of my studies where I
-            learned the most.
+            SheCodes React workshop.
           </p>
           <a
             href="https://reliable-react-weather.netlify.app/"
@@ -64,10 +63,10 @@ export default function Portfolio() {
         <div className="border-section">
           <h2>React Dictionary</h2>
           <p>
-            This dictionary was done as part of the React Add-on workshop. I got
-            to practice everything I learned of the first React course and also
-            add some new fun tricks. Word search with meanings, phonetics,
-            synonyms and images.
+            Word search dictionary with meanings, phonetics, synonyms and
+            images. Done as part of the React Add-on workshop. I got to practice
+            all I learned of the first React course and also add some new
+            tricks.
           </p>
 
           <div className="project-links">
@@ -138,8 +137,18 @@ export default function Portfolio() {
       <section className="grid grid-2-columns">
         <div className="border-section">
           <h2>AI movie quote generator</h2>
-          <p>This project was done as a part of SheCodes AI workshop</p>
-          <img src={aiImage} alt="AI project" className="project-img" />
+          <p>
+            An AI companion that gives you movie quotes from any move you'd
+            like. Made this as a project for my AI-programming workshop.
+          </p>{" "}
+          <a
+            href="https://movie-quote-generator.netlify.app/"
+            className="project-link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={aiImage} alt="AI project" className="project-img" />
+          </a>
           <div className="project-links">
             <a
               href="https://movie-quote-generator.netlify.app/"
@@ -163,7 +172,8 @@ export default function Portfolio() {
         <div className="border-section">
           <h2>World Clock</h2>
           <p>
-            This project was done as a part of SheCodes Plus add-on workshop
+            Played with time and built a world clock using Javascript. This
+            project was done as a part of SheCodes Plus add-on workshop
           </p>
           <div className="project-links">
             <a

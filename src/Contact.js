@@ -44,6 +44,7 @@ export default function Contact() {
               </button>
             </div>
           </form>
+
           <div className="contact-icons">
             <a
               href="https://www.linkedin.com/in/matilda-larsson-0176a3289/"
