@@ -10,11 +10,11 @@ export default function Main() {
         <div className="border-section">
           <h2>SKILLS</h2>
           <p>
-            I code in VSCode and focusing och React.js. During my studies I've
-            learned responsive development, how to use Bootstrap, make API-calls
-            and incorporate plug-ins. We also hade a mini course in AI and on
-            the side I've developed some skills in Figma. I'm cool with
-            Wordpress and currently getting familiar with Next.js.
+            In my studies I've learnt (apart from all the basics): responsive
+            development, how to use Bootstrap, make API-calls, Git, hosting and
+            incorporate plug-ins. We also hade a mini course in AI and on the
+            side I've developed some skills in Figma. I'm cool with Wordpress
+            and currently getting familiar with Next.js.
           </p>
           <div className="icons">
             <i className="fab fa-html5"></i>
@@ -22,6 +22,7 @@ export default function Main() {
             <i className="fab fa-js"></i>
             <i className="fab fa-react"></i>
             <i className="fab fa-bootstrap"></i>
+            <i className="fab fa-git-alt"></i>
             <i className="fab fa-figma"></i>
             <i className="fab fa-wordpress-simple"></i>
           </div>

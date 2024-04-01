@@ -10,21 +10,15 @@ section {
   grid-template-columns: 1fr 1fr;
   margin-top: 38px;
 }
-.grid-4-columns {
-  grid-template-columns: repeat(4, 1fr);
-  margin-top: 38px;
-}
+
 .border-section,
-.border-section-4,
 .border-section-img {
   border: var(--border);
 }
 .border-section {
   padding: 80px 65px;
 }
-.border-section-4 {
-  padding: 40px 30px;
-}
+
 .border-section-img {
   background: url("./images/ML.jpeg");
   background-size: cover;

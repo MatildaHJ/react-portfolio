@@ -47,11 +47,15 @@ form {
 
 .btn:hover {
   background-color: #1c181d !important;
+  transition: 0.2s ease-in-out;
 }
-
 .contact-icons {
   text-align: center;
-  opacity: 0.5;
+}
+
+.contact-icons i {
+  font-size: 32px !important;
+  color: #888 !important;
 }
 
 .contact-icons a {
@@ -59,6 +63,7 @@ form {
   margin: 18px 5px 0 5px;
   text-decoration: none;
 }
-.contact-icons i {
-  font-size: 32px !important;
+.contact-icons i:hover {
+  transition: 0.2s ease-in-out;
+  color: white !important;
 }

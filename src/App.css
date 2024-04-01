@@ -7,7 +7,7 @@
   font-family: "Roboto Mono", monospace;
   font-weight: 300;
   color: white;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 .App .container {
   width: 70%;
@@ -16,13 +16,16 @@
 .App header {
   text-align: center;
   color: white;
-  padding: 140px 150px;
+  padding: 120px 130px;
   margin: 0 auto;
   border: var(--border);
 }
 .App p {
   font-size: 12px;
   line-height: 19px;
+}
+.App strong {
+  font-weight: bold;
 }
 .App a {
   color: white;

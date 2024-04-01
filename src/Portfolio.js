@@ -13,23 +13,34 @@ export default function Portfolio() {
         <div className="border-section">
           <h2>PORTFOLIO</h2>
           <p>
-            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum Consectetur adipiscing elit, sed do eiusmod tempor
+            Below are some of the project I've been working on lately. I also
+            have some exciting and fun things coming up. Both professionaly and
+            just for practice. I was just hired by a restaurat to build a merch
+            web shop for them, and re-build a website for a retail/PR agency.
           </p>
         </div>
       </section>
       <section className="grid grid-2-columns">
         <div className="border-section">
           <h2>React Weather app</h2>
-          <p>This project was done as a part of SheCodes React workshop</p>
-          <img
-            src={reactWeather}
-            alt="React weather app"
-            className="project-img"
-          />
+          <p>
+            This is a weather app with daily weather data, time and forecast
+            data from any city around the world. It was done as a part of
+            SheCodes React workshop and probably the part of my studies where I
+            learned the most.
+          </p>
+          <a
+            href="https://reliable-react-weather.netlify.app/"
+            className="project-link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={reactWeather}
+              alt="React weather app"
+              className="project-img"
+            />
+          </a>
           <div className="project-links">
             <a
               href="https://reliable-react-weather.netlify.app/"
@@ -51,12 +62,17 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="border-section">
-          <h2>AI movie quote generator</h2>
-          <p>This project was done as a part of SheCodes AI workshop</p>
-          <img src={aiImage} alt="AI project" className="project-img" />
+          <h2>React Dictionary</h2>
+          <p>
+            This dictionary was done as part of the React Add-on workshop. I got
+            to practice everything I learned of the first React course and also
+            add some new fun tricks. Word search with meanings, phonetics,
+            synonyms and images.
+          </p>
+
           <div className="project-links">
             <a
-              href="https://movie-quote-generator.netlify.app/"
+              href="https://reliable-dictionary.netlify.app/"
               className="project-link"
               target="_blank"
               rel="noreferrer"
@@ -65,7 +81,7 @@ export default function Portfolio() {
             </a>{" "}
             •{" "}
             <a
-              href="https://github.com/MatildaHJ/movie-quote-generator"
+              href="https://github.com/MatildaHJ/dictionary-react"
               className="project-link"
               target="_blank"
               rel="noreferrer"
@@ -79,11 +95,12 @@ export default function Portfolio() {
         <div className="border-section">
           <h2>Shiny Happy People</h2>
           <p>
-            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum Consectetur adipiscing elit, sed do eiusmod tempor
+            My first professional freelance project. I was hired to build the
+            website for the marketing/concept agency Shiny Happy People. This
+            earned me SO much experience and insight on how it could be to
+            actually work as a developer. I had a lot of fun and my relatively
+            new found passion for coding sparked enormously. Client was very
+            pleased with the result too which was cool.
           </p>
           <a
             href="https://shinyhappypeople.se/"
@@ -120,12 +137,12 @@ export default function Portfolio() {
       </section>
       <section className="grid grid-2-columns">
         <div className="border-section">
-          <h2>React Dictionary</h2>
-          <p>Under construction...</p>
-
+          <h2>AI movie quote generator</h2>
+          <p>This project was done as a part of SheCodes AI workshop</p>
+          <img src={aiImage} alt="AI project" className="project-img" />
           <div className="project-links">
             <a
-              href="https://reliable-dictionary.netlify.app/"
+              href="https://movie-quote-generator.netlify.app/"
               className="project-link"
               target="_blank"
               rel="noreferrer"
@@ -134,7 +151,7 @@ export default function Portfolio() {
             </a>{" "}
             •{" "}
             <a
-              href="https://github.com/MatildaHJ/dictionary-react"
+              href="https://github.com/MatildaHJ/movie-quote-generator"
               className="project-link"
               target="_blank"
               rel="noreferrer"
@@ -143,7 +160,6 @@ export default function Portfolio() {
             </a>
           </div>
         </div>
-
         <div className="border-section">
           <h2>World Clock</h2>
           <p>
