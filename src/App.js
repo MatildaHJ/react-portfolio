@@ -1,14 +1,12 @@
 import Navbar from "./Navbar";
 import Main from "./Main";
-import Language from "./Language";
+import Footer from "./Footer";
 import "./App.css";
-import MLLogo from "./images/ML-logo.png";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Language />
         <Navbar />
         <div className="main-container">
           <header id="about">
@@ -41,28 +39,7 @@ export default function App() {
           <Main />
         </div>
       </div>
-      <footer>
-        <div className="footer-content">
-          <img src={MLLogo} alt="logo" className="mlLogoSmall" />
-          <p className="footer-text">
-            16751 Bromma
-            <br />
-            matilda.hj.larsson@gmail.com
-          </p>
-
-          <small>
-            This is an{" "}
-            <a
-              href="https://github.com/MatildaHJ/react-portfolio"
-              className="gitLink"
-              target="_blank"
-              rel="noreferrer"
-            >
-              open source code
-            </a>
-          </small>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

@@ -12,7 +12,7 @@ export default function Main() {
           <p>
             In my studies I've learned HTML5, CSS, JS & React.js, responsive
             development, how to use Bootstrap, make API-calls, Git, hosting and
-            incorporate plug-ins. We also hade a mini course in AI and on the
+            incorporate plug-ins. We also had a mini course in AI and on the
             side I've developed some skills in Figma. I'm cool with Wordpress
             and currently getting familiar with Next.js.
           </p>

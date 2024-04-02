@@ -1,0 +1,12 @@
+.light-color,
+.dark-color {
+  width: 15px;
+  height: 15px;
+  border: var(--border);
+  margin-left: 10px;
+}
+
+.light-color:hover,
+.dark-color:hover {
+  cursor: pointer;
+}

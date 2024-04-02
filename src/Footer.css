@@ -1,0 +1,57 @@
+.Footer {
+  background-color: #211b23;
+  padding: 38px 10px 38px 10px;
+}
+
+.Footer footer {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 20px;
+}
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.Footer .footer-text,
+.Footer small {
+  line-height: 15px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+.Footer small {
+  font-size: 8px;
+}
+
+.Footer .footer-text {
+  text-align: left;
+  font-size: 10px;
+  margin-bottom: 0;
+}
+
+.Footer .footer-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Footer .mlLogoSmall {
+  margin-bottom: 12px;
+  width: 130px;
+}
+
+.Footer .gitLink {
+  text-decoration: none;
+  color: white;
+}
+
+.Footer .gitLink:hover {
+  text-decoration: underline;
+}
+
+.Footer .change-theme {
+  margin-bottom: 5px;
+}
