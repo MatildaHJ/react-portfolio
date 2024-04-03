@@ -1,8 +1,9 @@
 import React from "react";
 import Portfolio from "./Portfolio";
+import Contact from "./Contact";
 import "./Main.css";
 
-export default function Main() {
+export default function Main({ isNight }) {
   return (
     <div className="Main">
       <section className="grid grid-2-columns">
@@ -29,6 +30,7 @@ export default function Main() {
         </div>
       </section>
       <Portfolio id="portfolio" />
+      <Contact isNight={isNight} />
     </div>
   );
 }

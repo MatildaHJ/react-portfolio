@@ -4,10 +4,16 @@ import Footer from "./Footer";
 import "./App.css";
 
 export default function App() {
+  const currentHour = new Date().getHours();
+  const isNight = currentHour >= 19 || currentHour < 7;
+
   return (
-    <div className="App">
+    <div
+      className="App"
+      style={{ backgroundColor: isNight ? "#2b232d" : "#857C87" }}
+    >
       <div className="container">
-        <Navbar />
+        <Navbar isNight={isNight} />
         <div className="main-container">
           <header id="about">
             <p>
@@ -36,10 +42,10 @@ export default function App() {
             </p>
           </header>
 
-          <Main />
+          <Main isNight={isNight} />
         </div>
       </div>
-      <Footer />
+      <Footer isNight={isNight} />
     </div>
   );
 }

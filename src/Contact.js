@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 
-export default function Contact() {
+export default function Contact({ isNight }) {
   return (
     <div className="Contact">
       <section id="contact">
@@ -14,7 +14,6 @@ export default function Contact() {
                 type="email"
                 className="form-control no-background"
                 id="emailInput"
-                placeholder="Enter your email here"
                 fdprocessedid="5rahu7"
               />
               <label htmlFor="emailInput">Email</label>
@@ -24,7 +23,6 @@ export default function Contact() {
                 type="name"
                 className="form-control no-background"
                 id="nameInput"
-                placeholder="Enter your name here"
                 fdprocessedid="vn5tda"
               />
               <label htmlFor="nameInput">Name</label>
@@ -34,12 +32,16 @@ export default function Contact() {
                 className="form-control no-background"
                 id="messageInput"
                 rows="8"
-                placeholder="Write your message here"
               ></textarea>
               <label htmlFor="messageInput">Message</label>
             </div>
             <div>
-              <button type="submit" className="btn" fdprocessedid="svevfm">
+              <button
+                type="submit"
+                className="btn"
+                style={{ backgroundColor: isNight ? "#211b23" : "#665D68" }}
+                fdprocessedid="svevfm"
+              >
                 Send
               </button>
             </div>
@@ -51,14 +53,20 @@ export default function Contact() {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-brands fa-linkedin fa-2xl"></i>
+              <i
+                className="fa-brands fa-linkedin fa-2xl"
+                style={{ color: isNight ? "#888" : "#ffff" }}
+              ></i>
             </a>
             <a
               href="https://github.com/MatildaHJ"
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-brands fa-square-github fa-2xl"></i>
+              <i
+                className="fa-brands fa-square-github fa-2xl"
+                style={{ color: isNight ? "#888" : "#ffff" }}
+              ></i>
             </a>
           </div>
         </div>

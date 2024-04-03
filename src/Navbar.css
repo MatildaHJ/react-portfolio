@@ -4,8 +4,16 @@
   z-index: 1000;
 }
 
-body .navbar {
+.navbar-night {
   background-color: #2b232d !important;
+}
+
+.navbar-day {
+  background-color: #857c87 !important;
+}
+
+body .navbar {
+  background-color: transparent !important;
   border-color: transparent !important;
   margin: 0 auto;
   margin-left: -10px;

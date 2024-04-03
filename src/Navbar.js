@@ -2,9 +2,9 @@ import React from "react";
 import MLLogo from "./images/ML-logo.png";
 import "./Navbar.css";
 
-export default function Navbar() {
+export default function Navbar({ isNight }) {
   return (
-    <div className="Navbar">
+    <div className={`Navbar ${isNight ? "navbar-night" : "navbar-day"}`}>
       <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="../public/index.html">

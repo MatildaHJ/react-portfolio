@@ -1,5 +1,4 @@
 import React from "react";
-import Contact from "./Contact";
 import reactWeather from "./images/react-weather.png";
 import shpImage from "./images/shp-projects.png";
 import aiImage from "./images/AI-project.png";
@@ -24,9 +23,9 @@ export default function Portfolio() {
         <div className="border-section">
           <h2>React Weather app</h2>
           <p>
-            A weather app with real-time weather data, time, icons and forecast
-            data from any city around the world. It was done as a part of
-            SheCodes React workshop.
+            A weather app with real-time weather data, icons and forecast data
+            from any city around the world. It was done as a part of SheCodes
+            React workshop.
           </p>
           <a
             href="https://reliable-react-weather.netlify.app/"
@@ -196,8 +195,6 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
-
-      <Contact />
     </div>
   );
 }
