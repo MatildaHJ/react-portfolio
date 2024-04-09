@@ -6,7 +6,7 @@ export default function Footer({ isNight }) {
   return (
     <div
       className="Footer"
-      style={{ backgroundColor: isNight ? "#211b23" : "#665D68" }}
+      style={{ backgroundColor: isNight ? "#665D68" : "#211b23" }}
     >
       <footer className="grid grid-2-columns">
         <div>
@@ -17,7 +17,7 @@ export default function Footer({ isNight }) {
             matilda.hj.larsson@gmail.com
             <br />
             <br />
-            <strong>Open résumé</strong>
+            <strong>Résumé</strong>
           </p>
         </div>
         <div>

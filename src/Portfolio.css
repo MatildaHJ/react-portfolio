@@ -1,3 +1,20 @@
+.text-block {
+  height: 92px;
+}
+
+.project-links button {
+  margin: 0 10px;
+  padding: 5px 8px;
+  line-height: 1.5;
+  letter-spacing: 0.25em;
+  font-size: 10px !important;
+  border: none;
+  background-color: #665d68;
+}
+button:hover {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  transition: 0.2s ease-in-out;
+}
 .project-links {
   text-align: center;
   margin-top: 20px;
@@ -5,13 +22,11 @@
 .project-link {
   color: white;
   text-decoration: none;
+  margin: 0 10px;
 }
-.project-link:hover {
-  text-decoration: underline !important;
-}
-.project-img {
+
+.project-icon {
   display: block;
-  margin: 20px auto;
-  max-width: 50%;
-  border-radius: 2px;
+  margin: 0 auto;
+  width: 12%;
 }

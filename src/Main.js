@@ -29,7 +29,7 @@ export default function Main({ isNight }) {
           </div>
         </div>
       </section>
-      <Portfolio id="portfolio" />
+      <Portfolio isNight={isNight} />
       <Contact isNight={isNight} />
     </div>
   );

@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 export default function Navbar({ isNight }) {
   return (
-    <div className={`Navbar ${isNight ? "navbar-night" : "navbar-day"}`}>
+    <div className={`Navbar ${isNight ? "navbar-day" : "navbar-night"}`}>
       <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="../public/index.html">

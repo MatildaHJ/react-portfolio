@@ -39,7 +39,7 @@ export default function Contact({ isNight }) {
               <button
                 type="submit"
                 className="btn"
-                style={{ backgroundColor: isNight ? "#211b23" : "#665D68" }}
+                style={{ backgroundColor: isNight ? "#665D68" : "#211b23" }}
                 fdprocessedid="svevfm"
               >
                 Send
@@ -55,7 +55,7 @@ export default function Contact({ isNight }) {
             >
               <i
                 className="fa-brands fa-linkedin fa-2xl"
-                style={{ color: isNight ? "#888" : "#ffff" }}
+                style={{ color: isNight ? "#ffff" : "#888" }}
               ></i>
             </a>
             <a
@@ -65,7 +65,7 @@ export default function Contact({ isNight }) {
             >
               <i
                 className="fa-brands fa-square-github fa-2xl"
-                style={{ color: isNight ? "#888" : "#ffff" }}
+                style={{ color: isNight ? "#ffff" : "#888" }}
               ></i>
             </a>
           </div>

@@ -45,7 +45,7 @@ form {
 }
 
 .btn:hover {
-  background-color: #1c181d !important;
+  background-color: rgba(0, 0, 0, 0.26) !important;
   transition: 0.2s ease-in-out;
 }
 .contact-icons {
