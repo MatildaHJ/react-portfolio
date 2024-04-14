@@ -1,11 +1,11 @@
 import React from "react";
-import bookIcon from "./images/bookIcon.png";
 
 export default function ProjectCard({
   isNight,
   title,
   description,
   websiteUrl,
+  imgUrl,
   githubUrl,
 }) {
   return (
@@ -20,7 +20,7 @@ export default function ProjectCard({
         target="_blank"
         rel="noreferrer"
       >
-        <img src={bookIcon} alt="Book Icon" className="project-icon" />
+        <img src={imgUrl} alt="Project Icon" className="project-icon" />
       </a>
       <div className="project-links">
         <button style={{ backgroundColor: isNight ? "#211b23" : "#665D68" }}>
