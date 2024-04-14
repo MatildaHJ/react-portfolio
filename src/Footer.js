@@ -1,12 +1,13 @@
 import React from "react";
 import "./Footer.css";
 import MLLogo from "./images/ML-logo.png";
+import MatildaLarssonResume from "./MatildaLarssonResume.pdf";
 
 export default function Footer({ isNight }) {
   return (
     <div
       className="Footer"
-      style={{ backgroundColor: isNight ? "#665D68" : "#211b23" }}
+      style={{ backgroundColor: isNight ? "#211b23" : "#665D68" }}
     >
       <footer className="grid grid-2-columns">
         <div>
@@ -17,20 +18,15 @@ export default function Footer({ isNight }) {
             matilda.hj.larsson@gmail.com
             <br />
             <br />
-            <strong>Résumé</strong>
-          </p>
-        </div>
-        <div>
-          <small className="footer-right">
             <a
-              href="https://github.com/MatildaHJ/react-portfolio"
-              className="gitLink"
+              className="Resume-link"
+              href={MatildaLarssonResume}
               target="_blank"
               rel="noreferrer"
             >
-              Open this code on GitHub
+              Résumé
             </a>
-          </small>
+          </p>
         </div>
       </footer>
     </div>

@@ -39,7 +39,7 @@ export default function Contact({ isNight }) {
               <button
                 type="submit"
                 className="btn"
-                style={{ backgroundColor: isNight ? "#665D68" : "#211b23" }}
+                style={{ backgroundColor: isNight ? "#211b23" : "#665D68" }}
                 fdprocessedid="svevfm"
               >
                 Send
@@ -55,7 +55,7 @@ export default function Contact({ isNight }) {
             >
               <i
                 className="fa-brands fa-linkedin fa-2xl"
-                style={{ color: isNight ? "#ffff" : "#888" }}
+                style={{ color: isNight ? "#888" : "#ffff" }}
               ></i>
             </a>
             <a
@@ -65,8 +65,18 @@ export default function Contact({ isNight }) {
             >
               <i
                 className="fa-brands fa-square-github fa-2xl"
-                style={{ color: isNight ? "#ffff" : "#888" }}
+                style={{ color: isNight ? "#888" : "#ffff" }}
               ></i>
+            </a>
+          </div>
+          <div className="git">
+            <a
+              href="https://github.com/MatildaHJ/react-portfolio"
+              className="git-link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open this website on GitHub
             </a>
           </div>
         </div>

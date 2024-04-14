@@ -1,5 +1,6 @@
 form,
-.btn {
+.btn,
+.gitLink {
   font-size: 10px;
   line-height: 19px;
   letter-spacing: 0.25em;
@@ -64,4 +65,16 @@ form {
 .contact-icons i:hover {
   transition: 0.2s ease-in-out;
   color: white !important;
+}
+
+.Contact .git {
+  text-align: center;
+  margin-top: 10px;
+}
+.Contact .git-link {
+  text-decoration: none;
+  font-size: 8px;
+}
+.Contact .git-link:hover {
+  text-decoration: underline;
 }

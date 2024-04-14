@@ -15,15 +15,10 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.Footer .footer-text,
-.Footer small {
+.Footer .footer-text {
   line-height: 15px;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-}
-
-.Footer small {
-  font-size: 8px;
 }
 
 .Footer .footer-text {
@@ -32,26 +27,15 @@
   margin-bottom: 0;
 }
 
-.Footer .footer-right {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .Footer .mlLogoSmall {
   margin-bottom: 12px;
   width: 130px;
 }
 
-.Footer .gitLink {
-  margin-top: 70px;
+.Footer .Resume-link {
   text-decoration: none;
-  color: white;
 }
 
-.Footer .gitLink:hover {
+.Footer .Resume-link:hover {
   text-decoration: underline;
-}
-
-.Footer .change-theme {
-  margin-bottom: 5px;
 }

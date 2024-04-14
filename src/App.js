@@ -5,12 +5,12 @@ import "./App.css";
 
 export default function App() {
   const currentHour = new Date().getHours();
-  const isNight = currentHour >= 19 && currentHour < 7;
+  const isNight = currentHour >= 19 || currentHour < 7;
 
   return (
     <div
       className="App"
-      style={{ backgroundColor: isNight ? "#857C87" : "#2b232d" }}
+      style={{ backgroundColor: isNight ? "#2b232d" : "#857C87" }}
     >
       <div className="container">
         <Navbar isNight={isNight} />
