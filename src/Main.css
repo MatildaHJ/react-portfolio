@@ -66,6 +66,11 @@ i {
   }
   .border-section {
     padding: 60px 90px;
-    margin-top: 18px;
+  }
+}
+
+@media (max-width: 700px) {
+  .border-section {
+    padding: 45px 45px;
   }
 }

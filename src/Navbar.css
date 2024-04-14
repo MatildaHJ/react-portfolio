@@ -34,9 +34,18 @@ body .navbar {
   margin-bottom: 20px;
 }
 
-.navbar .navbar-toggler .navbar-toggler-icon {
+.navbar .navbar-toggler {
   color: white !important;
+  border: none !important;
+  background-color: transparent !important;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 900px) {
+  .mlLogo {
+    width: 200px;
+  }
+  .Navbar {
+    padding-bottom: 1px;
+  }
 }
