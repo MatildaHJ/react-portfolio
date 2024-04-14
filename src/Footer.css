@@ -32,10 +32,37 @@
   width: 130px;
 }
 
-.Footer .Resume-link {
+.Footer .Resume-link,
+.Footer .contact-icons a,
+.Footer .git-link {
   text-decoration: none;
 }
 
-.Footer .Resume-link:hover {
+.Footer .Resume-link:hover,
+.Footer .git-link:hover {
   text-decoration: underline;
+}
+
+.Footer .footer-right {
+  margin-top: 42px;
+}
+.Footer .contact-icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Footer .contact-icons i {
+  font-size: 32px !important;
+}
+
+.Footer .contact-icons i:hover {
+  transition: 0.2s ease-in-out;
+  color: white !important;
+}
+
+.Footer .git {
+  margin-top: 10px;
+  font-size: 8px;
+  display: flex;
+  justify-content: flex-end;
 }

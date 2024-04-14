@@ -24,6 +24,8 @@ section {
   background-size: cover;
   opacity: 0.6;
   background-blend-mode: screen;
+  min-width: 400px;
+  min-height: 350px;
 }
 .Main h2,
 .Main h3 {
@@ -57,4 +59,13 @@ i {
   color: white;
   font-size: 24px;
   padding: 6px;
+}
+@media (max-width: 1050px) {
+  .Main .grid-2-columns {
+    grid-template-columns: 1fr;
+  }
+  .border-section {
+    padding: 60px 90px;
+    margin-top: 18px;
+  }
 }

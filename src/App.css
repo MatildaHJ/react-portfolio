@@ -32,3 +32,8 @@
 .App a:hover {
   text-decoration: none;
 }
+@media (max-width: 1050px) {
+  .App header {
+    padding: 60px 90px;
+  }
+}

@@ -67,7 +67,7 @@ export default function Portfolio({ isNight }) {
             githubUrl={project.githubUrl}
           />
         ))}
-        <div className="border-section">
+        <div className="border-section more-frame">
           <h2>More to come...</h2>
         </div>
       </section>

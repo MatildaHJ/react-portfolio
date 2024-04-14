@@ -33,3 +33,10 @@ body .navbar {
   width: 265px;
   margin-bottom: 20px;
 }
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+  color: white !important;
+}
+
+@media (max-width: 900px) {
+}
