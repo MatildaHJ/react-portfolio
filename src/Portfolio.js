@@ -21,7 +21,7 @@ export default function Portfolio({ isNight }) {
     {
       title: "Portfolio 3: Shiny Happy People",
       description:
-        "I was hired to build the website for the concept agency Shiny Happy People in Stockholm. I used HTML5, CSS and vanilla JS to build this website. I really enjoyed this project and client was very pleased with the result which was cool.",
+        "I was hired to build the website for the concept agency Shiny Happy People. It was built with HTML5, CSS and vanilla JS. I really enjoyed this project and client was very pleased with the result which was cool.",
       websiteUrl: "https://reliable-dictionary.netlify.app/",
       githubUrl: "https://github.com/MatildaHJ/dictionary-react",
     },

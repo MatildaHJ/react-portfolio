@@ -30,24 +30,3 @@ button:hover {
   margin: 0 auto;
   width: 12%;
 }
-
-@media (max-width: 1050px) {
-  .text-block {
-    height: 70px;
-  }
-  .more-frame {
-    display: none;
-  }
-}
-
-@media (max-width: 700px) {
-  .border-section {
-    padding: 45px 45px;
-  }
-  .Portfolio img {
-    display: none;
-  }
-  .Portfolio button {
-    margin-top: 10px;
-  }
-}

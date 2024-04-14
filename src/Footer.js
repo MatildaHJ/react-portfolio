@@ -17,7 +17,6 @@ export default function Footer({ isNight }) {
             <br />
             matilda.hj.larsson@gmail.com
             <br />
-            <br />
             <a
               className="Resume-link"
               href={MatildaLarssonResume}
