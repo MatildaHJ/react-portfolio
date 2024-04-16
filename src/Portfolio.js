@@ -7,6 +7,7 @@ import bookIcon from "./images/bookIcon.png";
 import shpLogo1 from "./images/shpLogo1.png";
 import AIIcon from "./images/AIIcon.svg";
 import clockIcon from "./images/clockIcon.svg";
+import trophyIcon from "./images/trophyIcon.png";
 
 export default function Portfolio({ isNight }) {
   const projects = [
@@ -81,6 +82,7 @@ export default function Portfolio({ isNight }) {
         ))}
         <div className="border-section more-frame">
           <h2>More to come...</h2>
+          <img src={trophyIcon} alt="Trophy" className="trophy-icon" />
         </div>
       </section>
     </div>

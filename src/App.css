@@ -84,7 +84,15 @@
   .Portfolio .project-links {
     margin-top: 8px;
   }
-
+  .text-block {
+    height: 95px;
+  }
+  .project-links button {
+    padding: 3px 6px;
+  }
+  .project-link {
+    font-size: 7px !important;
+  }
   form {
     width: 90%;
   }

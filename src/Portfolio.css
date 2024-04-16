@@ -1,9 +1,12 @@
+.text-block {
+  height: 90px;
+}
+
 .project-links button {
   margin: 0 10px;
   padding: 5px 8px;
-  line-height: 1.5;
+  line-height: 0;
   letter-spacing: 0.25em;
-  font-size: 10px !important;
   border: none;
   background-color: #665d68;
 }
@@ -16,14 +19,22 @@ button:hover {
   justify-content: center;
   margin-top: 10px;
 }
+
 .project-link {
   color: white;
   text-decoration: none;
   margin: 0 10px;
+  font-size: 10px !important;
 }
 
 .project-icon {
   display: block;
   margin: 0 auto;
   width: 80px;
+}
+
+.trophy-icon {
+  display: block;
+  margin: 60px auto;
+  width: 100px;
 }
