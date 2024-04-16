@@ -2,9 +2,9 @@ import React from "react";
 import "./Portfolio.css";
 import ProjectCard from "./ProjectCard";
 
-import WeatherIcon from "./images/WeatherIcon.svg";
+import weatherIcon from "./images/weatherIcon.png";
 import bookIcon from "./images/bookIcon.png";
-import shpLogo from "./images/shpLogo.svg";
+import shpLogo1 from "./images/shpLogo1.png";
 import AIIcon from "./images/AIIcon.svg";
 import clockIcon from "./images/clockIcon.svg";
 
@@ -15,13 +15,13 @@ export default function Portfolio({ isNight }) {
       description:
         "A weather app with real-time weather data, icons and forecast data from any city around the world. It was done as a part of SheCodes React workshop.",
       websiteUrl: "https://reliable-react-weather.netlify.app/",
-      imgUrl: WeatherIcon,
+      imgUrl: weatherIcon,
       githubUrl: "https://github.com/MatildaHJ/weather-react",
     },
     {
       title: "Portfolio 2: React Dictionary",
       description:
-        "Word search dictionary with meanings, phonetics, synonyms and images. Done as part of the React Add-on workshop. I got to practice all I learned of the first React course and also add some new tricks.",
+        "Word search dictionary with meanings, phonetics, synonyms and images. Done in the React Add-on workshop. Practiced what I learned of the first React course and added some new tricks.",
       websiteUrl: "https://reliable-dictionary.netlify.app/",
       imgUrl: bookIcon,
       githubUrl: "https://github.com/MatildaHJ/dictionary-react",
@@ -29,9 +29,9 @@ export default function Portfolio({ isNight }) {
     {
       title: "Portfolio 3: Shiny Happy People",
       description:
-        "I was hired to build the website for the concept agency Shiny Happy People. It was built with HTML5, CSS and vanilla JS. I really enjoyed this project and client was very pleased with the result which was cool.",
+        "I was hired to build the website for the concept agency Shiny Happy People. I used HTML5, CSS and vanilla JS. I had so much fun and client was very pleased with the result which was cool.",
       websiteUrl: "https://reliable-dictionary.netlify.app/",
-      imgUrl: shpLogo,
+      imgUrl: shpLogo1,
       githubUrl: "https://github.com/MatildaHJ/dictionary-react",
     },
     {

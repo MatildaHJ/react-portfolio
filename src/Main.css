@@ -60,17 +60,3 @@ i {
   font-size: 24px;
   padding: 6px;
 }
-@media (max-width: 1050px) {
-  .Main .grid-2-columns {
-    grid-template-columns: 1fr;
-  }
-  .border-section {
-    padding: 60px 90px;
-  }
-}
-
-@media (max-width: 700px) {
-  .Main .border-section {
-    padding: 45px 45px;
-  }
-}

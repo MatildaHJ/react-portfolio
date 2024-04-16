@@ -36,9 +36,8 @@ export default function App() {
               focusing on <strong>React.js</strong> right now. I always want to
               learn new stuff though and I'm excited to keep adding things to my
               skills-list.
-              <br /> Apart from being well on my way to becoming a real coding
-              geek I also love dancing when no one is watching and have a
-              massive sweet tooth.
+              <br /> Apart from this interest in writing code, I also like to
+              tattoo my friends and I have a massive sweet tooth.
             </p>
           </header>
 
