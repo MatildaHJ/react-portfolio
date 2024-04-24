@@ -2,6 +2,7 @@ import Navbar from "./Navbar";
 import Main from "./Main";
 import Footer from "./Footer";
 import "./App.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 export default function App() {
   const currentHour = new Date().getHours();
