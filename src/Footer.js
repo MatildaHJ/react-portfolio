@@ -15,7 +15,12 @@ export default function Footer({ isNight }) {
           <p className="footer-text">
             16751 Bromma
             <br />
-            matilda.hj.larsson@gmail.com
+            <a
+              className="email-link"
+              href="mailto:matilda.hj.larsson@gmail.com"
+            >
+              matilda.hj.larsson@gmail.com
+            </a>
             <br />
             <a
               className="Resume-link"

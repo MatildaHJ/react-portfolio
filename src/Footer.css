@@ -34,7 +34,8 @@
 
 .Footer .Resume-link,
 .Footer .contact-icons a,
-.Footer .git-link {
+.Footer .git-link,
+.Footer .email-link {
   text-decoration: none;
 }
 

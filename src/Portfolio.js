@@ -31,25 +31,25 @@ export default function Portfolio({ isNight }) {
       title: "Portfolio 3: Shiny Happy People",
       description:
         "I was hired to build the website for the concept agency Shiny Happy People. I used HTML5, CSS and vanilla JS. I had so much fun and client was very pleased with the result which was cool.",
-      websiteUrl: "https://reliable-dictionary.netlify.app/",
+      websiteUrl: "https://shinyhappypeople.se/",
       imgUrl: shpLogo1,
-      githubUrl: "https://github.com/MatildaHJ/dictionary-react",
+      githubUrl: "https://github.com/MatildaHJ/shiny-happy-people",
     },
     {
       title: "Portfolio 4: AI Movie quote generator",
       description:
         "An AI companion that gives you movie quotes from any move you'd like. Made this as a project for my AI-programming workshop. HTML5, CSS & Vanilla JS",
-      websiteUrl: "https://reliable-dictionary.netlify.app/",
+      websiteUrl: "https://movie-quote-generator.netlify.app",
       imgUrl: AIIcon,
-      githubUrl: "https://github.com/MatildaHJ/dictionary-react",
+      githubUrl: "https://github.com/MatildaHJ/movie-quote-generator",
     },
     {
       title: "Portfolio 5: World clock",
       description:
         "  Played with time and built a world clock using Javascript. This project was done as a part of SheCodes Plus add-on workshop. HTML5, CSS & Vanilla JS.",
-      websiteUrl: "https://reliable-dictionary.netlify.app/",
+      websiteUrl: "https://reliable-world-clock.netlify.app",
       imgUrl: clockIcon,
-      githubUrl: "https://github.com/MatildaHJ/dictionary-react",
+      githubUrl: "https://github.com/MatildaHJ/world-clock",
     },
   ];
 

@@ -4,12 +4,8 @@ import "./Navbar.css";
 
 export default function Navbar({ isNight }) {
   return (
-    <div className="Navbar">
-      <nav
-        className={`navbar navbar-expand-lg sticky-top ${
-          isNight ? "navbar-night" : "navbar-day"
-        }`}
-      >
+    <div className={`Navbar ${isNight ? "navbar-night" : "navbar-day"}`}>
+      <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top ">
         <div className="container-fluid">
           <a className="navbar-brand" href="../public/index.html">
             <img src={MLLogo} alt="logo" className="mlLogo" />
@@ -25,7 +21,7 @@ export default function Navbar({ isNight }) {
           ></button>
           <div
             className={`collapse navbar-collapse justify-content-end ${
-              isNight ? "navbar-night" : ""
+              isNight ? "navbar-night-collapse" : "navbar-day-collapse"
             }`}
             id="navbarNav"
           >
