@@ -18,27 +18,36 @@ export default function App() {
         <div className="main-container">
           <header id="about">
             <p>
-              Hello, I'm <strong>Matilda</strong>, a{" "}
-              <strong>Front-end developer</strong> based in{" "}
-              <strong>Stockholm</strong>, Sweden. I just finished my studies
-              with{" "}
+              Hej, <strong>Matilda</strong> här, en junior
+              <h1>
+                <strong>Frontend-utvecklare</strong>
+              </h1>{" "}
+              i <strong>Stockholm</strong>. Jag har just nu praktik på webbyrån{" "}
+              <a href="https://rhymesthlm.se/" target="_blank" rel="noreferrer">
+                Rhyme
+              </a>
+              , efter ett omfattande kod-bootcamp med{" "}
               <a
                 href="https://www.shecodes.io/"
                 target="_blank"
                 rel="noreferrer"
               >
                 SheCodes
-              </a>{" "}
-              and actively seeking a paid internship (Stockholm or remote) where
-              I can take my programming game to the next level and find a
-              like-minded coding fam. I can contribute with a lot of creativity,
-              drive and an (almost annoyingly) strong determination to find
-              solutions for ALL problems. I'm coding in VSCode and mostly
-              focusing on <strong>React.js</strong> right now. I always want to
-              learn new stuff though and I'm excited to keep adding things to my
-              skills-list.
-              <br /> Apart from this interest in writing code, I also like to
-              tattoo my friends and I have a massive sweet tooth.
+              </a>
+              . Jag söker nu en arbetsplats som är lite som en kod-familj, där
+              jag kan ta mina kunskaper till nästa nivå och bidra med mycket
+              kreativitet, driv och en (nästan lite irriterande) stark
+              beslutsamhet att alltid hitta lösningar till alla problem.
+            </p>
+            <p className="mt-3">
+              Jag kodar i VS code och har jusst nu mest fokus på Astro och
+              React. Vill dock aldrig sluta att lära mig saker och ser fram emot
+              att lägga till mycket mer på kompetenslistan.
+            </p>
+
+            <p>
+              Förutom att skriva kod gillar jag också att sy och att
+              hobby-tatuera mina vänner. Och croissanter. Älskar croissanter.
             </p>
           </header>
 

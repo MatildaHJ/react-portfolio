@@ -19,13 +19,13 @@
   margin: 0 auto;
   border: var(--border);
 }
-.App p {
+.App p,
+.App h1 {
   font-size: 12px;
   line-height: 19px;
+  margin: 0;
 }
-.App strong {
-  font-weight: bold;
-}
+
 .App a {
   color: white;
 }

@@ -2,13 +2,15 @@ section {
   max-width: 100%;
   margin: 38px auto;
 }
+p {
+  margin-bottom: 0 !important;
+}
 .grid {
   display: grid;
   grid-gap: 38px;
 }
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
-  margin-top: 38px;
 }
 
 .border-section,

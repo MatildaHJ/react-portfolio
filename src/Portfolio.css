@@ -30,11 +30,6 @@ button:hover {
 .project-icon {
   display: block;
   margin: 0 auto;
+  margin-top: 10px;
   width: 80px;
-}
-
-.trophy-icon {
-  display: block;
-  margin: 60px auto;
-  width: 100px;
 }
