@@ -1,18 +1,18 @@
 import React from "react";
-import "./Footer.css";
-import MLLogo from "./images/ML-logo.png";
-import MatildaLarssonResume from "./MatildaLarssonResume.pdf";
+import "./styles/Footer.css";
+import MLLogo from "./assets/images/ML-logo.png";
+import MatildaLarssonResume from "./assets/MatildaLarssonResume.pdf";
 
 export default function Footer({ isNight }) {
   return (
     <div
-      className="Footer"
+      className="Footer px-10 py-38 text-sm"
       style={{ backgroundColor: isNight ? "#211b23" : "#665D68" }}
     >
-      <footer className="grid grid-2-columns">
+      <footer className="grid grid-cols-2 gap-20 uppercase">
         <div>
-          <img src={MLLogo} alt="logo" className="mlLogoSmall" />
-          <p className="footer-text">
+          <img src={MLLogo} alt="logo" className="mb-2" width="130px" />
+          <p className="mb-0 text-left">
             16751 Bromma
             <br />
             <a
@@ -32,7 +32,7 @@ export default function Footer({ isNight }) {
             </a>
           </p>
         </div>
-        <div className="footer-right">
+        <div className="mt-7">
           <div className="contact-icons">
             <a
               href="https://www.linkedin.com/in/matilda-larsson-0176a3289/"

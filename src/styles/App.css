@@ -3,14 +3,12 @@
   --accent-color: #211b23;
 }
 .App {
-  font-family: "Roboto Mono", monospace;
   font-weight: 300;
   color: white;
   padding-top: 35px;
 }
 .App .container {
   width: 80%;
-  margin: 0 auto;
 }
 .App header {
   text-align: center;

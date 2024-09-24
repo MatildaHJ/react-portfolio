@@ -1,6 +1,7 @@
 import React from "react";
-import MLLogo from "./images/ML-logo.png";
-import "./Navbar.css";
+import { Link } from "react-router-dom";
+import MLLogo from "./assets/images/ML-logo.png";
+import "./styles/Navbar.css";
 
 export default function Navbar({ isNight }) {
   return (
@@ -27,23 +28,23 @@ export default function Navbar({ isNight }) {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link active"
                   aria-current="page"
-                  href="./Main.js#portfolio"
+                  to="/portfolio"
                 >
                   PROJECTS
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="./Main.js#about">
+                <Link className="nav-link" to="/about">
                   ABOUT
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="./Main.js#contact">
+                <Link className="nav-link" to="/contact">
                   CONTACT
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container,
+form {
+  @apply mx-auto;
+}
+
+.container {
+  @apply w-80;
+}
+
+a {
+  @apply no-underline hover:underline;
+}

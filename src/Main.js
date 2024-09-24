@@ -1,7 +1,7 @@
 import React from "react";
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
-import "./Main.css";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
+import "./styles/Main.css";
 
 export default function Main({ isNight }) {
   return (
